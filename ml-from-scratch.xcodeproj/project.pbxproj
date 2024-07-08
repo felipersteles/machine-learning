@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		72D39A8D2C3C267D00514301 /* cnn-from-scratch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cnn-from-scratch"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D39A8D2C3C267D00514301 /* ml-from-scratch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ml-from-scratch"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D39A902C3C267D00514301 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		72D39A982C3C27B900514301 /* data.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = data.hpp; sourceTree = "<group>"; };
 		72D39A9B2C3C2C1800514301 /* data_handler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = data_handler.hpp; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		72D39A8E2C3C267D00514301 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72D39A8D2C3C267D00514301 /* cnn-from-scratch */,
+				72D39A8D2C3C267D00514301 /* ml-from-scratch */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		72D39A8C2C3C267D00514301 /* cnn-from-scratch */ = {
+		72D39A8C2C3C267D00514301 /* ml-from-scratch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72D39A942C3C267D00514301 /* Build configuration list for PBXNativeTarget "cnn-from-scratch" */;
+			buildConfigurationList = 72D39A942C3C267D00514301 /* Build configuration list for PBXNativeTarget "ml-from-scratch" */;
 			buildPhases = (
 				72D39A892C3C267D00514301 /* Sources */,
 				72D39A8A2C3C267D00514301 /* Frameworks */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = "cnn-from-scratch";
+			name = "ml-from-scratch";
 			productName = "cnn-from-scratch";
-			productReference = 72D39A8D2C3C267D00514301 /* cnn-from-scratch */;
+			productReference = 72D39A8D2C3C267D00514301 /* ml-from-scratch */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 72D39A882C3C267D00514301 /* Build configuration list for PBXProject "cnn-from-scratch" */;
+			buildConfigurationList = 72D39A882C3C267D00514301 /* Build configuration list for PBXProject "ml-from-scratch" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72D39A8C2C3C267D00514301 /* cnn-from-scratch */,
+				72D39A8C2C3C267D00514301 /* ml-from-scratch */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +272,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72D39A882C3C267D00514301 /* Build configuration list for PBXProject "cnn-from-scratch" */ = {
+		72D39A882C3C267D00514301 /* Build configuration list for PBXProject "ml-from-scratch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72D39A922C3C267D00514301 /* Debug */,
@@ -281,7 +281,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72D39A942C3C267D00514301 /* Build configuration list for PBXNativeTarget "cnn-from-scratch" */ = {
+		72D39A942C3C267D00514301 /* Build configuration list for PBXNativeTarget "ml-from-scratch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72D39A952C3C267D00514301 /* Debug */,

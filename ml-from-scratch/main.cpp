@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  cnn-from-scratch
+//  machine learning from scratch
 //
 //  Created by Felipe Teles on 08/07/24.
 //
