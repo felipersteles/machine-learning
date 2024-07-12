@@ -10,6 +10,7 @@
 		72D39A912C3C267D00514301 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72D39A902C3C267D00514301 /* main.cpp */; };
 		72D39A9D2C3C47C000514301 /* data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72D39A9C2C3C47C000514301 /* data.cpp */; };
 		72D39A9F2C3C48C600514301 /* data_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72D39A9E2C3C48C600514301 /* data_handler.cpp */; };
+		72D39AA42C401F7600514301 /* knn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72D39AA22C401F7600514301 /* knn.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		72D39A9B2C3C2C1800514301 /* data_handler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = data_handler.hpp; sourceTree = "<group>"; };
 		72D39A9C2C3C47C000514301 /* data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = data.cpp; sourceTree = "<group>"; };
 		72D39A9E2C3C48C600514301 /* data_handler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = data_handler.cpp; sourceTree = "<group>"; };
+		72D39AA22C401F7600514301 /* knn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = knn.cpp; sourceTree = "<group>"; };
+		72D39AA32C401F7600514301 /* knn.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = knn.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,8 @@
 		72D39A842C3C267D00514301 = {
 			isa = PBXGroup;
 			children = (
+				72D39AA12C401F5800514301 /* knn */,
+				72D39AA02C401F3A00514301 /* data */,
 				72D39A8F2C3C267D00514301 /* ml-from-scratch */,
 				72D39A8E2C3C267D00514301 /* Products */,
 			);
@@ -63,13 +68,29 @@
 		72D39A8F2C3C267D00514301 /* ml-from-scratch */ = {
 			isa = PBXGroup;
 			children = (
+				72D39A902C3C267D00514301 /* main.cpp */,
+			);
+			path = "ml-from-scratch";
+			sourceTree = "<group>";
+		};
+		72D39AA02C401F3A00514301 /* data */ = {
+			isa = PBXGroup;
+			children = (
 				72D39A9B2C3C2C1800514301 /* data_handler.hpp */,
 				72D39A982C3C27B900514301 /* data.hpp */,
 				72D39A9C2C3C47C000514301 /* data.cpp */,
 				72D39A9E2C3C48C600514301 /* data_handler.cpp */,
-				72D39A902C3C267D00514301 /* main.cpp */,
 			);
-			path = "ml-from-scratch";
+			path = data;
+			sourceTree = "<group>";
+		};
+		72D39AA12C401F5800514301 /* knn */ = {
+			isa = PBXGroup;
+			children = (
+				72D39AA22C401F7600514301 /* knn.cpp */,
+				72D39AA32C401F7600514301 /* knn.hpp */,
+			);
+			path = knn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +153,7 @@
 				72D39A9F2C3C48C600514301 /* data_handler.cpp in Sources */,
 				72D39A912C3C267D00514301 /* main.cpp in Sources */,
 				72D39A9D2C3C47C000514301 /* data.cpp in Sources */,
+				72D39AA42C401F7600514301 /* knn.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

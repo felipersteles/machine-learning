@@ -30,6 +30,10 @@ void Data::set_enumerated_label(int value){
     enum_label = value;
 }
 
+void Data::set_distance(double val){
+    distance = val;
+}
+
 int Data::get_feture_vector_size(){
     return (int) feature_vector->size();
 }
@@ -40,6 +44,10 @@ uint8_t Data::get_label(){
 
 uint8_t Data::get_enumerated_label(){
     return enum_label;
+}
+
+double Data::get_distance(){
+    return distance;
 }
 
 std::vector<uint8_t>* Data::get_feature_vector(){

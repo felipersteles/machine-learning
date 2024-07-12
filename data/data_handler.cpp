@@ -122,9 +122,9 @@ void DataHandler::split_data(){
         }
     }
     
-    printf("Training Data Size: %lu.\n", training_data->size());
-    printf("Test Data Size: %lu.\n", test_data->size());
-    printf("Valid Data Size: %lu.\n", validation_data->size());
+    printf("[Info]: Training Data Size: %lu.\n", training_data->size());
+    printf("[Info]: Test Data Size: %lu.\n", test_data->size());
+    printf("[Info]: Valid Data Size: %lu.\n", validation_data->size());
 }
 
 void DataHandler::count_classes(){
@@ -137,7 +137,7 @@ void DataHandler::count_classes(){
         }
     }
     num_classes = count;
-    printf("Successfully Extracted %d Unique Classes.\n", num_classes);
+    printf("[Info]: Successfully Extracted %d Unique Classes.\n", num_classes);
 }
 
 uint32_t DataHandler::convert_to_little_endian(const unsigned char *bytes){
